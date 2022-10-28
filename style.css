@@ -16,7 +16,7 @@ html{
 }
 body{
     overflow: hidden;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -46,13 +46,32 @@ header .user img{
 header .user .name{
     font-size: 3rem;
     color: #fff;
-    padding: 5rem 0;
+    padding: 3rem 0;                     /* 5rem 0 to 3rem  0 */
+    
 }
 header .user .post{
     font-size: 1.8rem;
     color: #eee;
     font-weight: lighter;
 }
-/* header .navbar{
+header .navbar{
     padding: 1rem 3rem;
-} */
+}
+header .navbar ul li{
+    margin: 1rem 0;
+    list-style: none;
+}
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+}
+header .navbar ul li a:hover{
+    background: rgba(255, 255, 255, .5);
+    color: #555;
+    transition: none; 
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(deeppink, purple);
+    padding: 5.5rem;
+}
+header{
+    width: 35rem;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+header .user{
+    padding-top: 2rem;
+}
+header .user img{
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255, 255, 255, .2);
+}
+header .user .name{
+    font-size: 3rem;
+    color: #fff;
+    padding: 5rem 0;
+}
+header .user .post{
+    font-size: 1.8rem;
+    color: #eee;
+    font-weight: lighter;
+}
+/* header .navbar{
+    padding: 1rem 3rem;
+} */

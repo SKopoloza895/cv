@@ -294,3 +294,63 @@ header .navbar ul li a:hover{
     color: #eee;
     padding: 1rem 0;
 }
+.contact .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7rem;
+    align-items: center;
+}
+.contact .row form{
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    
+}
+.contact .row form .box{
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 1rem 2rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    width: 49%;
+    height: 4rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+}
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+    color: #eee;
+}
+.contact .row form .message{
+    padding: 1rem;
+    width: 100%;
+    height: 15rem;
+    resize: 100%;
+}
+.contact .row form .btn{
+    margin-bottom: 1rem;
+}
+.contact .row .content{
+    padding: 0 5rem;
+}
+.contact .row .content .icons{
+    padding: 1rem 0;
+}
+.contact .row .content .icons h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+}
+.contact .row .content .icons h3 i{
+    padding-right: .5rem;
+}
+contact .row .content .icons p{
+    font-size: 1.5rem;
+    color: #eee;
+}

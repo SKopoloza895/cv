@@ -25,6 +25,7 @@ body{
 }
 section{
     padding: 1rem 7%;
+    min-height: 100%;
 }
 .btn{
     font-size: 2rem;
@@ -108,7 +109,7 @@ header .navbar ul li a:hover{
     overflow: hidden;
 }
 .home{
-    min-height: 100%;
+    /* min-height: 100%; //delete  */ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,9 +157,9 @@ header .navbar ul li a:hover{
     background: rgba(255, 255, 255, .5);
     color: #555;
 }
-.about{
+/* .about{ //deletion//
     min-height: 100%;
-}
+} */
 .about .content h3{
     font-size: 2.5rem;
     color: #eee;
@@ -219,9 +220,9 @@ header .navbar ul li a:hover{
     padding: 1rem;
     color: #fff;
 }
-.service{
+/* .service{ //delete//
     min-height: 100%;
-}
+} */
 .service .box-container{
     /* padding: 2rem 0; */
     display: flex;
@@ -249,4 +250,47 @@ header .navbar ul li a:hover{
     font-size: 1.3rem;
     padding: 3rem 3rem;
     
+}
+.education .box-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.education .box-container .box{
+    width: 32rem;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+    border-left: .2rem solid #eee;
+}
+.education .box-container .box .year{
+    font-size: 2rem;
+    color: #eee;
+    position: relative;
+}
+.education .box-container .box .year::before{
+    content: '';
+    position: absolute;
+    /* change from top: 3rem to .5rem */
+    top: .5rem; left: -3.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.education .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.education .box-container .box h2{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.education .box-container .box p{
+    font-size: 1.3rem;
+    color: #eee;
+    padding: 1rem 0;
 }

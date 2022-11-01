@@ -317,9 +317,9 @@ header .navbar ul li a:hover{
     padding: 0 1rem;
     margin: 1rem 0;
     width: 49%;
-    height: 4rem;
+    height: 5rem;
     font-size: 1.7rem;
-    color: #fff;
+    color: rgba(238, 238, 238, 0.515);
     text-transform: none;
 }
 .contact .row form .box::placeholder{
@@ -350,7 +350,23 @@ header .navbar ul li a:hover{
 .contact .row .content .icons h3 i{
     padding-right: .5rem;
 }
-contact .row .content .icons p{
+.contact .row .content .icons p{
     font-size: 1.5rem;
     color: #eee;
+}
+.theme-toggler{
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+    backdrop-filter: blur(.4rem);
+}
+.theme-toggler span{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 2rem 2.5rem;
+    box-shadow: 0 0 0 .5rem rgba(255, 255, 255, .2);
+                /* 0 1rem 2rem rgba(0, 0, 0, .4); */
 }

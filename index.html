@@ -160,15 +160,15 @@
                 </form>
                 <div class="content">
                     <div class="icons">
-                        <h3><i class="fas fa-map-marker-alt">address </i></h3>
+                        <h3><i class="fas fa-map-marker-alt"> address </i></h3>
                         <p>Johannesburg, South Africa 2000</p>
                     </div>
                     <div class="icons">
-                        <h3><i class="fas fa-envelope">email </i></h3>
+                        <h3><i class="fas fa-envelope"> email </i></h3>
                         <p>siyandakopolo@gmail.com </p>
                     </div>
                     <div class="icons">
-                        <h3><i class="fas fa-phone">phone </i></h3>
+                        <h3><i class="fas fa-phone"> phone </i></h3>
                         <p>+27 71 986 4573 </p>
                     </div>
                 </div>
@@ -177,6 +177,15 @@
 
     </div>
     <!-- content section end -->
+
+    <!-- theme toggler section  -->
+    <div class="theme-toggler">
+        <span style="background: linear-gradient(deeppink, purple);"></span>
+        <span style="background: linear-gradient(lightgreen, crimson);"></span>
+        <span style="background: linear-gradient(blueviolet, deeppink);"></span>
+        <span style="background: linear-gradient(coral, blueviolet);"></span>
+        <span style="background: linear-gradient(#999, #111);"></span>
+    </div>
 
    
 
@@ -189,6 +198,12 @@
             typeSpeed: 120,
             loop:true
         });
+
+        let themeColor = document.querySelectorAll('.theme-toggler span');
+        themeColor.forEach(color => color.addEventListener('click', ()=>{
+            let background = color.style.background;
+            document.querySelector('body').style.background = background;
+        }));
     </script>
 
 

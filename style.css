@@ -103,8 +103,6 @@ header .navbar ul li a:hover{
     background: rgba(255, 255, 255, .2);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
     backdrop-filter: blur(.4rem);
-    /* text-align: center; */
-    /* padding: 1rem; */
     border-radius: 1rem;
     overflow: hidden;
 }
@@ -203,16 +201,16 @@ header .navbar ul li a:hover{
     background: #fff;
 }
 .about .skills .progress:nth-child(1) .bar span{
-    width: 95%;
+    width: 54%;
 }
 .about .skills .progress:nth-child(2) .bar span{
-    width: 85%;
+    width: 46%;
 }
 .about .skills .progress:nth-child(3) .bar span{
-    width: 75%;
+    width: 55%;
 }
 .about .skills .progress:nth-child(4) .bar span{
-    width: 95%;
+    width: 65%;
 }
 .heading{
     font-size: 3rem;
@@ -368,5 +366,5 @@ header .navbar ul li a:hover{
     cursor: pointer;
     margin: 2rem 2.5rem;
     box-shadow: 0 0 0 .5rem rgba(255, 255, 255, .2);
-                /* 0 1rem 2rem rgba(0, 0, 0, .4); */
+                0 1rem 2rem rgba(0, 0, 0, .4);
 }

@@ -221,14 +221,14 @@ header .navbar ul li a:hover{
 /* .service{ //delete//
     min-height: 100%;
 } */
-.service .box-container{
+/* .experience .box-container{ */
     /* padding: 2rem 0; */
-    display: flex;
+    /* display: flex;
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     /* justify-content: center; */
-}
-.service .box-container .box{
+/* } */
+/* .experience .box-container .box{
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -237,18 +237,79 @@ header .navbar ul li a:hover{
     text-align: center;
     width: 35rem;
 }
-.service .box-container .box i{
+.experience .box-container .box i{
     color: #fff;
     font-size: 2.5rem;
     padding: 1rem 0;
 
 }
-.service .box-container .box p{
+.experience .box-container .box p{
     color: #eee;
     font-size: 1.3rem;
     padding: 3rem 3rem;
     
+} */
+
+/* ----------------------------
+Experience Section
+---------------------------- */
+
+.experience .box-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
+.experience .box-container .box{
+    width: 32rem;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+    border-left: .2rem solid #eee;
+}
+.experience .box-container .box .year{
+    font-size: 2rem;
+    color: #eee;
+    position: relative;
+}
+.experience .box-container .box .year::before{
+    content: '';
+    position: absolute;
+    /* change from top: 3rem to .5rem */
+    top: .5rem; left: -3.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.experience .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.experience .box-container .box h2{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.experience .box-container .box h1{
+    font-size: 1.2rem;
+    color: #fff;
+    padding-top: .5rem;
+}
+.experience .box-container .box p{
+    font-size: 1.3rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+
+
+/* ----------------------------
+Education Section
+---------------------------- */
+
+
 .education .box-container{
     display: flex;
     /* align-items: center; */
@@ -366,5 +427,5 @@ header .navbar ul li a:hover{
     cursor: pointer;
     margin: 2rem 2.5rem;
     box-shadow: 0 0 0 .5rem rgba(255, 255, 255, .2);
-                0 1rem 2rem rgba(0, 0, 0, .4);
+                /* 0 1rem 2rem rgba(0, 0, 0, .4); */
 }

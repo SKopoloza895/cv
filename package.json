@@ -1,0 +1,24 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKopoloza895/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKopoloza895/CV/issues"
+  },
+  "homepage": "https://github.com/SKopoloza895/CV#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.8.0"
+  }
+}

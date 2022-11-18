@@ -353,6 +353,7 @@ Education Section
     color: #eee;
     padding: 1rem 0;
 }
+/* Contact Section */
 .contact .row{
     display: flex;
     justify-content: space-between;

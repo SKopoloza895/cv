@@ -1,246 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siyanda Kopolo</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siyanda's CV</title>
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/" type="image/x-icon" />
+  <!-- Bootstrap 5 -->
+  <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
 </head>
+
 <body>
-    <!-- Header section start -->
-    <header>
-        <div class="user">
-            <img src="images/Picture of Siyanda.png" alt="">
-            <h3 class="name">Siyanda Kopolo</h3>
-            <p class="post">Front End developer</p>
+  <!-- Page Loader Start -->
+  <div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Page Loader End -->
+  <!-- Overlay Start -->
+  <div class="overlay"></div>
+  <!-- Overlay End -->
+  <!-- Main Start -->
+  <div class="main hidden">
+    <!-- Header Start -->
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                <li><a href="#about" class="nav-item link-item">About</a></li>
+                <li>
+                  <a href="#portfolio" class="nav-item link-item">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#contact" class="nav-item link-item">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      </div>
     </header>
-    <!-- Header section End -->
-
-    <!-- content section start -->
-    <div class="container">
-        <section class="home" id="home">
-            <h3>Hi there...</h3>
-            <h3 class="name">my name is <span>siyanda kopolo</span></h3>
-            <h3 class="post">i am a <span class="typing-text">junior developer</span></h3>
-            <a href="#"><button class="btn">hire me</button></a>
-
-            <div class="share">
-                <!-- <a href="https://www.facebook.com/STKopza895" class="fab fa-facebook-f" target="_blank"></a> -->
-                <a href="https://twitter.com/CiciKopza" class="fab fa-twitter" target="_blank"></a>
-                <!-- <a href="https://www.instagram.com/kopza895" class="fab fa-instagram" target="_blank"></a> -->
-                <a href="https://za.pinterest.com/siarakopolo882" class="fab fa-pinterest" target="_blank"></a>
-                <a href="https://www.linkedin.com/in/siyanda-kopolo-32884a9b" class="fab fa-linkedin" target="_blank"></a>
-                <a href="https://www.behance.net/siyandakopolo2" class="fab fa-behance" target="_blank"></a>
+    <!-- Header End -->
+    <!-- Home Section Start -->
+    <section class="home-section align-items-center" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>Siyanda Kopolo</h1>
+            <h2>Software Developer</h2>
+            <a href="#about" class="btn link-item">More About Me</a>
+            <a href="#portfolio" class="btn link-item">Portfolio</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="img/profile-img.png" alt="profile-img" />
             </div>
-        </section>
-
-        <!-- about section -->
-
-        <section class="about" id="about">
-            <h1 class="heading">about me</h1>
-            <div class="content">
-                <h3 class="name">my name is <span>siyanda kopolo</span></h3>
-                <p>I am a flexible and friendly person, I work well in a team but also on my own as I like to set myself goals which I will achieve, 
-                    I have good listening and communication skills. 
-                    I have a creative mind and am always up for new challenges 
-                </p>
-                <p>I want to work for a company that will let me put my software development training to use. 
-                    My goal is to contribute to my workplace by working diligently, being a team player, and being positive at all times. 
-                    I am a self-starter with strong interpersonal and conflict-management abilities.
-                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- About Section Start -->
+    <section class="about-section sec-padding" id="about">
+      <div class="contain">
+        <div class="row">
+          <div class="section-title">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="img/profile-img.png" alt="about-img" />
             </div>
+          </div>
+          <div class="about-text">
+            <p>
+              Hello, my name is Siyanda Kopolo, and I'm 27 years old. 
+              I am a flexible and friendly person, 
+              I work well in a team but also on my own as I like to set myself goals which I will achieve, 
+              I have good listening and communication skills. 
+              I have a creative mind and am always up for new challenges
+            </p>
+            <h3>Skills</h3>
             <div class="skills">
-                <div class="progress">
-                    <h3>html <span>54%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
-                <div class="progress">
-                    <h3>css <span>46%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
-                <div class="progress">
-                    <h3>git <span>55%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
-                <div class="progress">
-                    <h3>graphic <span>65%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
+              <div class="skill-item">HTML</div>
+              <div class="skill-item">CSS</div>
+              <div class="skill-item">Bootstrap</div>
             </div>
-        </section>
-
-        <!-- experience section  -->
-        <section class="experience" id="experience">
-            <h1 class="heading">my experience</h1>
-            <!-- <div class="box-container">
-                <div class="box">
-                    <i class="fab fa-html5"></i>
-                    <p>CSS/HTML5 developer that is eager to merge the art of design with the art of programming. 
-                        Responsibilities will involve translating the UI/UX design wireframes to actual code that will generate visual aspects of the application. 
-                        I will collaborate with the UI/UX designer to bridge the gap between graphical design and technical implementation.
-                    </p>
+            <div class="about-tabs">
+              <button type="button" class="tab-item active" data-target="#education">
+                Education
+              </button>
+              <button type="button" class="tab-item" data-target="#experience">
+                Experience
+              </button>
+            </div>
+            <!-- Education Start -->
+            <div class="tab-content active" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date"> 2013 - 2016 </span>
+                  <h4>
+                    Diploma in Information Technology -
+                    <span>Belgium Campus iTversity</span>
+                  </h4>
+                  <p></p>
                 </div>
-                <div class="box">
-                    <i class="fab fa-css3"></i>
-                    <p>Cascading Style Sheets (CSS) is a style sheet language used to portray the appearance semantics of a text written in a Markup Language.
-                        A CSS developer usually performs many of the following tasks: <br>
-                        • Writing CSS programs <br>
-                        • Monitoring communications systems <br>
-                        • Testing website performance and interaction <br>
-                        • Designing web pages <br>
-                    </p>
+                <div class="timeline-item">
+                  <span class="date">2010 - 2010</span>
+                  <h4>Certificate of Office Administration - <span>NID College</span></h4>
+                  <p> </p>
                 </div>
-                <div class="box">
-                    <i class="fab fa-git"></i>
-                    <p>Knowledge of version control systems especially GIT.
-                        Link to specific projects on GitHub in the projects section of my resume.
-                    </p>
+                <div class="timeline-item">
+                  <span class="date">2007 - 2009</span>
+                  <h4>Matric - <span>St Thomas School for the Deaf</span></h4>
+                  <p>English (FAL) <br>
+                  Life Orientation <br>
+                  Mathematics Literacy <br>
+                  Business Studies <br>
+                  Hospitality Studies</p>
+              </div>
+              </div>
+            </div>
+            <!-- Education End -->
+            <!-- Experience Start -->
+            <div class="tab-content" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date"> Jun 2022 - Present </span>
+                  <h4>Software Developer - <span>The Digital Academy (Learnership)</span></h4>
+                  <p><li>Perform self-development and advancement.</li>
+                    <li>Researched and developed new technology designs.</li>
+                    <li>Work as a team on developing an interactive and dynamic website,</li>
+                  </p>
                 </div>
-                <div class="box">
-                    <i class="fab fa-js"></i>
-                    <p>Knowledge of frameworks and libraries such as Bootstrap, jQuery etc.
-                    </p>
+                <div class="timeline-item">
+                  <span class="date"> March 2021 - Sept 2021 </span>
+                  <h4>Cloud Computing - <span>Za Wit (Skills Programme)</span></h4>
+                  <p><li>Perform self-development and advancement.</li>
+                    <li>Researched and developed new technology designs.</li>
+                    <li>Work as a team on developing an interactive and dynamic website,</li>
+                  </p>
                 </div>
+                <div class="timeline-item">
+                  <span class="date"> Feb 2020 - Jan 2021 </span>
+                  <h4>Graduate Software Developer - <span>IOCO subsidy EOH</span></h4>
+                  <p><li>Perform self-development and advancement.</li>
+                    <li>Researched and developed new technology designs.</li>
+                    <li>Work as a team on developing an interactive and dynamic website,</li>
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date"> Feb 2019 - Jan 2020 </span>
+                  <h4>In-Service Training - <span>Bolthale Village subsidy Belgium Campus</span></h4>
+                  <p><li>Html5 and CSS3 supported project managers in determine milestones and
+                        project scope</li>
+                      <li>Created interactive websites with software development department using
+                    backend and frontend framework</li>
+                      <li>Lifecycle (SDLC) created spreadsheets using microsoft Excel for daily,
+                    weekly and monthly reporting contributing as team leader and member
+                    learning from working with experienced software developers.</li>
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date"> June 2012 - Sept 2013 </span>
+                  <h4>Retailer Operations, Learnership - <span>CheckerHyper, Edenvale</span></h4>
+                  <p><li>Process Payments and purchases on the POS system</li>
+                    <li>Maintaining and controlling stock losses</li>
+                    <li>Receive on the floor back</li>
+                    <li>Data Capturer in the receive</li>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Experience End -->
+            <a href="file/CV_Siyanda Kopolo.PDF" target="_blank" class="btn">Download CV</a>
+            <a href="#contact" class="btn link-item">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+    <!-- Portfolio Section Start -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Recent Work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Portfolio Item Start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio2/1.png" alt="portfolio item thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">Family Doctor Website </h3>
+            <button type="button" class="btn view-project-btn">
+              View Project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Family physicians are a one-stop medical care shop dedicated to treating the whole person. 
+                  Unlike specialists, family practitioners treat each organ and every disease in both genders of all ages. 
+                  The foundation upon which family medicine is built is an ongoing, personal patient-physician relationship that emphasizes preventive and integrated care. 
+                  Primary care doctors support your family’s health through all life cycles—birth, acute illness, chronic illness and end-of-life care..
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>September  2022</span></li>
+                  <li>
+                    Technologies Used -
+                    <span>HTML, CSS
+                    </span>
+                  </li>
+                  <li>Role - <span>Frontend</span></li>
+                  <!-- <li>
+                    View Online -
+                    <span><a href="#" target="_blank"></a></span>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio2/2.png" alt="portfolio item thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">
+              CV template - Web portfolio
+            </h3>
+            <button type="button" class="btn view-project-btn">
+              View Project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Cv Template for my site.The most beautiful portfolio template 
+                  This one is the most beautiful website template i have ever seen. 
+                  <!-- It is so cool that you will have to check out the demo.  -->
+                  The design features glass-like transparency. 
+                  Easily edit the template to suit you.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>October 2022</span></li>
+                  <li>
+                    Technologies Used -
+                    <span>HTML, CSS, JavaScript, Bootstrap, Font-awesome</span>
+                  </li>
+                  <li>Role - <span>Frontend</span></li>
+                  <!-- <li>
+                    View Online -
+                    <span><a href="#" target="_blank"></a></span>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+    <!-- Contact Sectioon Start -->
+    <section class="contact-section sec-padding" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Contact me </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=siyandakopolo@gmail.com"
+                target="_blank">siyandakopolo@gmail.com</a>
+            </div>
+            <!-- <div class="contact-info-item">
+              <h3>Phone</h3>
+              <a href="#" target="_blank">+27 719 64573</a>
             </div> -->
-            <div class="box-container">
-                <div class="box">
-                    <div class="year">Feb 2019 - Jan 2021</div>
-                    <h3>In-Service Training</h3>
-                    <h2>Belgium Campus, Pretoria</h2>
-                    <h1><li>Html5 and CSS3 supported project managers in determine milestones and
-                        project scope</li></h1>
-                    <h1><li>Created interactive websites with software development department using
-                        backend and frontend framework</li></h1>
-                    <h1><li>Lifecycle (SDLC) created spreadsheets using microsoft Excel for daily,
-                        weekly and monthly reporting contributing as team leader and member
-                        learning from working with experienced software developers.</li></h1>
-                </div>
-                <div class="box">
-                    <div class="year">Feb 2020 - Jan 2021</div>
-                    <h3>Graduate Software developer</h3>
-                    <h2>IOCO subsidy EOH, Bedfordview </h2>
-                    <h1><li>Perform self-development and advancement.</li></h1>
-                    <h1><li>Researched and developed new technology designs.</li></h1>
-                    <h1><li>Work as a team on developing an interactive and dynamic website,</li></h1>
-                </div>
-                <div class="box">
-                    <div class="year">June 2012 - Sept 2013</div>
-                    <h3>Retailer Operations </h3>
-                    <h2>Learnership, Edenvale, Gauteng</h2>
-                    <h1><li>Process Payments and purchases on the POS system</li></h1>
-                    <h1><li>Maintaining and controlling stock losses</li></h1>
-                    <h1><li>Receive on the floor back</li></h1>
-                    <h1><li>Data Capturer in the receive</li></h1>
-
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatem?
-                    </p> -->
-                </div>
+            <div class="contact-info-item">
+              <h3>Address</h3>
+              <a href="https://goo.gl/maps/bJnThRkB6NHGmHTb7" target="_blank">Soweto, South Africa, 1819</a>
             </div>
-        </section>
-
-        <!-- education section  -->
-        <section class="education" id="education">
-            <h1 class="heading">my education</h1>
-            <div class="box-container">
-                <div class="box">
-                    <div class="year">2016 - 2021</div>
-                    <h3>Diploma in Information Technology</h3>
-                    <h2>Belgium Campus ITversity, Pretoria</h2>
-                    <!-- <p>
-                    </p> -->
-                </div>
-                <div class="box">
-                    <div class="year">2010 - 2010</div>
-                    <h3>Office Administration</h3>
-                    <h2>NID College, Worcester </h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatem?
-                    </p> -->
-                </div>
-                <div class="box">
-                    <div class="year">2007 - 2009</div>
-                    <h3>Matric </h3>
-                    <h2>St. Thomas school for the Deaf, eQonce</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatem?
-                    </p> -->
-                </div>
+            <div class="contact-info-item">
+              <h3>Follow Me</h3>
+              <div class="social-links">
+                  <a href="https://www.behance.net/siyandakopolo2" target="_blank"><i
+                    class="fab fa-behance"></i></a>
+                  <a href="https://www.linkedin.com/in/siyanda-kopolo-32884a9b/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/SKopoloza895" target="_blank"><i
+                    class="fab fa-github"></i></a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Sectioon End -->
+  </div>
+  <!-- Main End -->
 
-        <!-- contact section  -->
-        <section class="contact" id="contact">
-            <h1 class="heading">contact me</h1>
-            <div class="row">
-                <form action="">
-                    <input type="text" class="box" placeholder="first name">
-                    <input type="text" class="box" placeholder="last name">
-                    <input type="email" class="box" placeholder="your email">
-                    <input type="text" class="box" placeholder="your project">
-                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-                    <input type="submit" value="message" class="btn">
-                </form>
-                <div class="content">
-                    <div class="icons">
-                        <h3><i class="fas fa-map-marker-alt"> address </i></h3>
-                        <p>Johannesburg, South Africa 2000</p>
-                    </div>
-                    <div class="icons">
-                        <h3><i class="fas fa-envelope"> email </i></h3>
-                        <p>siyandakopolo@gmail.com </p>
-                    </div>
-                    <div class="icons">
-                        <h3><i class="fas fa-phone"> phone </i></h3>
-                        <p>+27 71 986 4573 </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+  <!-- Portfolio Item Details Popup Start -->
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button type="button" class="btn pp-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <div class="pp-thumbnail">
+            <img src="#" alt="pp-thumbnail" />
+          </div>
+          <h3></h3>
+        </div>
+        <div class="pp-body"></div>
+      </div>
     </div>
-    <!-- content section end -->
-
-    <!-- theme toggler section  -->
-    <div class="theme-toggler">
-        <span style="background: linear-gradient(deeppink, purple);"></span>
-        <span style="background: linear-gradient(lightgreen, crimson);"></span>
-        <span style="background: linear-gradient(blueviolet, deeppink);"></span>
-        <span style="background: linear-gradient(coral, blueviolet);"></span>
-        <span style="background: linear-gradient(#999, #111);"></span>
-    </div>
-
-   
-
-    <!-- Type.js CDN link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-
-    <script>
-        var type = new Typed ('.typing-text',{
-            strings: ['','front end developer','graphic designer','junior developer' ],
-            typeSpeed: 120,
-            loop:true
-        });
-
-        let themeColor = document.querySelectorAll('.theme-toggler span');
-        themeColor.forEach(color => color.addEventListener('click', ()=>{
-            let background = color.style.background;
-            document.querySelector('body').style.background = background;
-        }));
-    </script>
-
-
+  </div>
+  <!-- Portfolio Item Details Popup End -->
+  <script src="js/script.js"></script>
+  <!-- Bootstrap 5 -->
+  <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> -->
 </body>
+
 </html>
